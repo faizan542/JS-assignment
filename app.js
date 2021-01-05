@@ -273,10 +273,20 @@
 // var eng = "English";
 // var toteng = 100;
 // var obteng = 75;
-// var percentage = (obteng/toteng)*100;
-
+// var urdu = "Urdu";
+// var toturdu = 100;
+// var obturdu = 66.5;
+// var math = "Math";
+// var totmath = 100;
+// var obtmath = 82;
+// var percentage = (obteng/toteng)*100
+// var per = (obturdu/toturdu)*100
+// var percent = (obtmath/totmath)*100
 // document.write("<table><tr><td>Subject</td><td>Total Marks</td><td>Obtained marks</td><td>Percentage</td></tr>")
-// document.write("<tr><td>" + eng + "</td>" + "<td>" + toteng +  "</td><td>" + obteng + "</td><td>" + percentage + "%</td></tr></table>")
+// document.write("<tr><td>" + eng + "</td>" + "<td>" + toteng +  "</td><td>" + obteng + "</td><td>" + percentage + "%</td></tr>")
+// document.write("<tr><td>" + urdu + "</td>" + "<td>" + toturdu +  "</td><td>" + obturdu + "</td><td>" + per + "%</td></tr>")
+// document.write("<tr><td>" + math + "</td>" + "<td>" + totmath +  "</td><td>" + obtmath + "</td><td>" + percent + "%</td></tr></table>")
+
 
 
 //chap 9-11
