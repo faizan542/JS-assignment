@@ -14,12 +14,12 @@
 
 // CH:2
 // Q:1
-    // var username = "faizan"
-    // alert(username)
+// var username = "faizan"
+// alert(username)
 
-    // Q:2
-    // var myname = "Muhammad Faizan"
-    // alert(myname)
+// Q:2
+// var myname = "Muhammad Faizan"
+// alert(myname)
 
 // Q:3
 // var message = "Hello World"
@@ -220,7 +220,7 @@
 // var c = a-b
 // document.write("Your age is:" + c)
 
-// Q:12
+// Q:13
 // var snacks = "Lays";
 // var currentAge  = 20;
 // var maximumAge = 80;
@@ -441,6 +441,17 @@
 
 
 // CH:12-13
+// Q:1
+// var input =prompt("Please type a character or number");
+				
+// if(input.charCodeAt() >= 65 && input.charCodeAt() <= 90) {
+// 	alert("Uppercase: " + input);
+// } else if(input.charCodeAt() >= 97 && input.charCodeAt() <= 122) {
+// 	alert("Lowercase: " + input);
+// } else {
+// 	alert("Number: " + input);
+// }
+
 //Q:2
 // var int1 = prompt("Enter first integer")
 // var int2 = prompt("Enter second integer")
@@ -508,3 +519,229 @@
 // }
 
 
+// CH:14-16
+// Q:1
+// var arr = []
+// console.log(arr)
+
+// Q:2
+// var obj = {}
+// console.log(obj)
+
+// Q:3
+// var arr = ["Faizan", "Noman"]
+// console.log(arr)
+
+// Q:4
+// var arr = [1,2,3,4,5,6,7,8,9,10]
+// console.log(arr)
+
+// Q:5 
+// var arr = [10>9]
+// console.log(arr)
+// document.write(arr)
+
+// Q:6
+// var arr = [1, "A ", 2, "Mixed ",3,"Array."]
+// console.log(arr)
+
+// Q:7
+// var arr = ["1. SSC <br />"+ "2. HSC <br />"+ "3. BSC <br />"+ "4. BS <br />"+ "5. BCOM <br />"+ "6. MS <br />"+ "7. M.PHILL <br />"+ "8. PhD <br />"]
+// document.write(arr)
+
+// Q:8
+// var names = ["Ahmed", "Ali", "Umer"]
+// var marks = [320 , 330 , 480]
+// var totmarks = 500
+// var percent0 = marks[0]/totmarks*100
+// var percent1 = marks[1]/totmarks*100
+// var percent2 = marks[2]/totmarks*100
+// document.write("Score of "+names[0]+ " is 320 ",+ percent0 +"% <br/>")
+// document.write("Score of "+names[1]+ " is 330 ",+ percent1 +"% <br/>")
+// document.write("Score of "+names[2]+ " is 482 ",+ percent2 +"%")
+
+// Q:9a
+// var color = ["red ", " green ", " blue ", " yellow"]
+// var addstart = prompt("Which color do you want to add to the beginning");
+//  color.unshift(addstart)
+//  document.write(color)
+
+// Q:9b
+// var color = ["red ", " green ", " blue ", " yellow"]
+// var addend = prompt("Which color do you want to add to the end");
+//  color.push(addend)
+//  document.write(color)
+
+// Q:9c
+// var color = [" red ", " green ", " blue ", " yellow"]
+// color.unshift("pink ", " orange ")
+// document.write(color)
+
+// Q:9d
+//  var color = [" red ", " green ", " blue ", " yellow"]
+// color.shift(color)
+// document.write(color)
+
+// Q:9e
+//  var color = [" red ", " green ", " blue ", " yellow"]
+// color.pop(color)
+// document.write(color)
+
+// Q:9f
+//  var color = [" red ", " green ", " blue ", " yellow"]
+// var indexName = prompt("At which index do you want to add a color from 0,5?");
+//  var addIndex = prompt("At which color do you want to add?");
+//  color.splice(indexName, 0 ,addIndex);
+//  document.write(color);
+
+// Q:9g
+//  var color = [" red ", " green ", " blue ", " yellow"]
+//  var removeIndex = prompt("At which index  you want to delete color(s)?");
+//  var removeIndexend = prompt('Enter How many colors you want to delete');
+//  color.splice(removeIndex,removeIndexend);
+//  document.write(color);
+
+
+
+
+
+// Q:10
+// var score = [320 , 230 , 480 , 120]
+// score.sort()
+// document.write(score)
+
+// Q:11
+// var cities = ["Karachi " , " Hyderabad " , " Lahore " , " Islamabad " , " Quetta "]
+// document.write(cities +"<br/>")
+// var copycities = cities.slice(1,4)
+// document.write(copycities)
+
+
+// Q:12
+// var arr = ["This", " is ", " my ", " cat"];
+// document.write("Array:<br>" + arr + "<br><br>")
+// var string = arr.join("");
+// document.write("String:<br>" + string + "<br>")
+
+// // Q:13
+// var x = ["keyboard " , " mouse " , " printer " , " monitor"];
+// document.write("Devices: <br>" + x + "<br>")
+//  for (i = 0; i < x.length; i++){
+//      document.write("<br>"+"Out:" + "<br>" + x[i] )
+//  }
+  
+// Q:14
+// var x = ["keyboard " , " mouse " , " printer " , " monitor"];
+// document.write("Devices: <br>" + x + "<br>")
+// for(i = (x.length-1); i >= 0; i--){
+//     document.write("<br>" + "Out:" + "<br>" + x[i])
+// }
+
+// Q:15
+// document.write('Phone Manufactureres : <select name="phone"><option value="samsung">Samsung</option><option value="apple">Apple</option><option value="sony">Sony</option><option value="nokia">Nokia</option><option value="motorola">Motorola</option></select>');
+
+//CH17-20
+//Q:1
+// var multi = [
+//  + [
+
+//   ]
+// ]
+
+//Q:2
+// var multi = [" 0 " + " 1 " + " 2 " + " 3<br> " + [" 1 " + " 0 " + " 1 " +  
+// " 2 <br>" ] + [" 2 " + " 1 " + " 0 " + " 1 " +  "<br><br>"]]
+// document.write(multi);
+
+
+ //Q:3
+// for(var a = 1; a <= 10; a++){
+// document.write(a + "<br>")
+// };
+
+//Q:4
+// var table = prompt('Enter Multiplication Table No ');
+//  var tablelength = prompt('Enter Multiplication Table Length');
+//  document.write("Multiplication table of " + table  +" Length " + tablelength + "<br>");
+//  for (i = 1; i <= tablelength; i++) {
+//      var result = table * i
+//     document.write(table + " x " + i + " = " + result + "<br>" );
+//  }
+ 
+
+//Q:5
+// var fruits = ["apple" , "banana" , "mango" , "orange" , "strawberry"]
+// for(var i = 0; i < fruits.length; i++){
+//     document.write( fruits[i] + "<br>")
+// }
+// document.write("<br>") 
+// for(var i = 0; i < fruits.length; i++) {
+//     document.write("Element at index " + fruits.indexOf(fruits[i]) + 
+//     " is " + fruits[i] + "<br>");
+// }
+
+
+//Q:6
+// document.write("<h3>Counting:</h3><br>")
+// for(var i = 1; i <= 15 ;  i++  ){
+//     document.write( i + ", " )
+// }
+//  document.write("<br><h3>Reverse counting:</h3><br>")
+// for(var i = 10; i >=1; i--){
+//     document.write(  i + ", ")
+// }
+//  document.write("<h3>Even:</h3><br>")
+//  for(var i = 0; i <=20; i = i+2){
+//      document.write(  i + ", " )
+//  }
+// document.write("<h3>Odd:</h3><br>")
+// for(var i = 1; i <=19; i=i + 2){
+//     document.write(  i + ", ")
+// }
+// document.write("<h3>Series:</h3><br>")
+//  for(var i = 2; i <=20; i = i+2){
+//      document.write(  i + "k" + ", " )
+//  }
+
+//Q:7
+// var ushop = prompt("Welcome to ABC bakery.What do you want to order sir/ma'am?");
+// ushop = ushop.toLowerCase()
+// var shop = ['cake', 'apple pie', 'cookie', 'chips', 'patties'];
+// var matchfound = 'no';
+// for (i = 0; i < shop.length; i++) {
+//     if (ushop === shop[i]) {
+//         matchfound = 'yes';
+//         alert(shop[i] + " is available at index "+ shop.indexOf(shop[i]) + " in our bakery ")
+//         break;
+//     };
+// };
+// if (matchfound === 'no') {
+//     alert("We are sorry."+ushop + " is not available in our bakery");
+// }
+
+//Q:8
+// var a1 = [24, 53, 78, 91, 12];
+// var largest = 0;
+// for (i = 0; i < a1.length; i++) {
+//     if (a1[i] > largest) {
+//         largest = a1[i];
+//     }  
+// };
+// document.write("Array items: " + a1 + "</br>");
+// document.write("The largest number is " + largest + "<br><br>");
+
+// Q:9
+// var a1 = [24, 53, 78, 91, 12];
+// var smallest = 0;
+// for (i = 0; i < a1.length; i++){
+// if (a1[i] < largest) {
+//     smallest = a1[i];
+// }
+// };
+// document.write("Array items: " + a1 + "</br>");
+// document.write("The smallest number is " + smallest + "<br>");
+
+//Q:10
+// for(var i = 5; i <=100; i = i+5){
+//          document.write(  i + ", " )
+//
